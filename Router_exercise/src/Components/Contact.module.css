@@ -1,0 +1,36 @@
+.contactContainer {
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 1rem auto;
+  justify-content: center;
+  gap: 1rem;
+}
+.contactImage {
+  max-width: 400px;
+}
+.contactContent {
+  padding-left: 1rem;
+}
+.contactContent h1 {
+  font-weight: 777;
+  margin-bottom: 1rem;
+}
+.contactList {
+  padding: 0;
+}
+.contactList li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactList li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: #ddd;
+}

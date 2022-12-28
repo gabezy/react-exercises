@@ -1,0 +1,13 @@
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem 2rem;
+}
+.link {
+  text-decoration: none;
+}
+
+.name {
+  margin: 0.5rem 0 0;
+  color: black;
+}
